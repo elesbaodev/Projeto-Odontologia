@@ -1,17 +1,110 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
 
-body{
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor01: #5AC6D0;
+    --cor02: #1EB9C7;
+    --cor03: #168A94;
+    --cor04: #0B4247;
+    --font01: 'Bricolage Grotesque', sans-serif; 
+    --fonte02: 'Roboto Flex', sans-serif;
+}
+
+body {
+    background-color: white;
+    
 
 }
 h1 {
-    font-family: 'Bricolage Grotesque', sans-serif;
+    margin-top: 10px;
+    font-family: var(--font01);
     font-weight: 600;
+    padding-left: 10px;
+    margin-bottom: 10px;
 
 }
+ h1 > strong {
+    color: var(--cor02);
+ }
 header {
+    background-color: white;
+    text-align: center;
 
 }
 header > nav > p {
     display: inline;
+    padding-left: 10px;
 }
+header > nav > p > a:hover {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);
+}
+h2 {
+    font-family: var(--fonte02);
+    padding-left: 10px;
+    margin-top: 30px;
+}
+section {
+    position: absolute;
+    margin-top: 80px;
+    padding-top: 10px;
+    background-color: rgb(0, 174, 255);
+    border: 2px solid rgba(0, 0, 0, 0.253);
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: -1px -1px 8px rgba(0, 0, 0, 0.322);
+    left: 50%;
+    top: 50%;
+    background-attachment: fixed;
+    transform: translate(-50%, -65%);
+    padding-left: 10px;
+}
+section > #imagem01 {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+section > #imagem01:hover {
+    box-shadow: -1px 2px 31px rgba(0, 0, 0, 0.466);
+    transition-duration: 0.2s;
+}
+a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.facetas {
+    padding-left: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 10px;
+    color: rgb(255, 255, 255);
+    
+}
+.facetas:hover {
+    text-decoration: underline;
+}
+section h2 {
+    padding-left: 100px;
+    color: white;
+}
+section > strong {
+    color: black;
+}
+#imagem02 {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.267);
+    border-radius: 20px;
+
+}
+#imagem02:hover {
+    box-shadow: -1px 2px 31px rgba(0, 0, 0, 0.466);
+}
+
+ 
