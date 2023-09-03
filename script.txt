@@ -1,0 +1,9 @@
+Projeto:
+Landing page para o ramo odontológico, para venda de produtos como: Facetas/Lentes em Resina.
+
+Requisitos:
+Será um layout responsivo, se adequando a qualquer tipo de tela e resolução.
+Deve ser otimizado para mecanismos de busca (SEO) para se bem visto no Google e outras redes de pesquisas.
+Imagens de qualidades (relacionadas com os produtos).
+Descrição deve destacar os benefícios das Facetas/Lentes em Resina no contexto odontológico.
+
