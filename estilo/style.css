@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&display=swap');
+
+body{
+
+}
+h1 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 600;
+
+}
+header {
+
+}
+header > nav > p {
+    display: inline;
+}
