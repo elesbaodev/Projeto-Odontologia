@@ -84,10 +84,12 @@ a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-indent: 10px;
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.322);
     
 }
 .facetas:hover {
     text-decoration: underline;
+    transition-duration: 1s;
 }
 section h2 {
     padding-left: 100px;
